@@ -9,40 +9,71 @@ body { background-color: #fcfcfc; font: 14px/1.6 "Microsoft Yahei","微软雅黑
 
 .pic img { width: 100%; height: 100%; }
 
-.m-salebox-l, .m-salebox-r { width: 1090px; height: 495px; position: relative; margin-bottom: 75px; }
-.m-salebox-l .title, .m-salebox-r .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
-.m-salebox-l .detail, .m-salebox-r .detail { padding: 35px 0 0 33px; margin-left: 640px; max-height: 235px; overflow: hidden; }
-.m-salebox-l .pic, .m-salebox-r .pic { width: 640px; height: 433px; float: left; }
-.m-salebox-l .price, .m-salebox-r .price { box-sizing: border-box; width: 350px; height: 225px; background-color: #fff; position: absolute; bottom: 0; left: 560px; padding: 33px 0 0 40px; line-height: 25px; }
-.m-salebox-l .price .text, .m-salebox-r .price .text { font-size: 18px; }
-.m-salebox-l .u-btn, .m-salebox-r .u-btn { width: 255px; height: 62px; color: #fff; position: relative; line-height: 62px; text-align: center; font-size: 24px; background-color: #ab2b2b; }
-.m-salebox-l .u-btn::after, .m-salebox-r .u-btn::after { content: ""; position: absolute; box-sizing: border-box; width: 100%; height: 100%; top: 12px; left: 12px; border: 3px solid #ab2b2b; }
-.m-salebox-l .z-dis, .m-salebox-r .z-dis { background-color: #666666; }
-.m-salebox-l .z-dis::after, .m-salebox-r .z-dis::after { border: 3px solid #666666; }
+.m-salebox-l { width: 1090px; height: 495px; position: relative; margin-bottom: 75px; }
+.m-salebox-l .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
+.m-salebox-l .detail { padding: 35px 0 0 33px; margin-left: 640px; max-height: 235px; overflow: hidden; }
+.m-salebox-l .pic { width: 640px; height: 433px; float: left; }
+.m-salebox-l .price { box-sizing: border-box; width: 350px; height: 225px; background-color: #fff; position: absolute; bottom: 0; left: 560px; padding: 33px 0 0 40px; line-height: 25px; }
+.m-salebox-l .price .text { font-size: 18px; }
+.m-salebox-l .u-btn { width: 255px; height: 62px; color: #fff; position: relative; line-height: 62px; text-align: center; font-size: 24px; background-color: #ab2b2b; }
+.m-salebox-l .u-btn::after { content: ""; position: absolute; box-sizing: border-box; width: 100%; height: 100%; top: 12px; left: 12px; border: 3px solid #ab2b2b; }
+.m-salebox-l .z-dis { background-color: #666666; }
+.m-salebox-l .z-dis::after { border: 3px solid #666666; }
 
-.m-salebox-r .pic { float: right; }
-.m-salebox-r .detail { padding: 45px 0 0 60px; margin: 0 640px 0 0; max-height: 225px; }
-.m-salebox-r .price { left: auto; right: 560px; padding: 33px 0 0 40px; line-height: 25px; }
+.m-salebox-r { width: 1090px; height: 495px; position: relative; margin-bottom: 75px; }
+.m-salebox-r .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
+.m-salebox-r .detail { padding: 45px 0 0 60px; margin: 0 640px 0 0; max-height: 225px; overflow: hidden; }
+.m-salebox-r .pic { width: 640px; height: 433px; float: right; }
+.m-salebox-r .price { box-sizing: border-box; width: 350px; height: 225px; background-color: #fff; position: absolute; bottom: 0; right: 560px; padding: 33px 0 0 40px; line-height: 25px; }
+.m-salebox-r .price .text { font-size: 18px; }
+.m-salebox-r .u-btn { width: 255px; height: 62px; color: #fff; position: relative; line-height: 62px; text-align: center; font-size: 24px; background-color: #ab2b2b; }
+.m-salebox-r .u-btn::after { content: ""; position: absolute; box-sizing: border-box; width: 100%; height: 100%; top: 12px; left: 12px; border: 3px solid #ab2b2b; }
+.m-salebox-r .z-dis { background-color: #666666; }
+.m-salebox-r .z-dis::after { border: 3px solid #666666; }
 
-.m-salebox1-horiz, .m-salebox1-vert, .m-salebox1-vertdown { width: 1090px; height: 405px; margin-bottom: 10px; }
-.m-salebox1-horiz .pic, .m-salebox1-horiz .detail, .m-salebox1-vert .pic, .m-salebox1-vert .detail, .m-salebox1-vertdown .pic, .m-salebox1-vertdown .detail { float: left; }
-.m-salebox1-horiz .pic, .m-salebox1-vert .pic, .m-salebox1-vertdown .pic { width: 625px; height: 100%; }
-.m-salebox1-horiz .title, .m-salebox1-vert .title, .m-salebox1-vertdown .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
-.m-salebox1-horiz .detail, .m-salebox1-vert .detail, .m-salebox1-vertdown .detail { box-sizing: border-box; width: 465px; float: left; height: 100%; padding: 60px 0 0 60px; background-color: #fff; position: relative; }
-.m-salebox1-horiz .detail::after, .m-salebox1-vert .detail::after, .m-salebox1-vertdown .detail::after { content: url("../img/bg.png"); position: absolute; -webkit-transform: rotateZ(90deg); transform: rotateZ(90deg); border: 1px solid transparent; top: 50%; left: -152px; }
-.m-salebox1-horiz .tag, .m-salebox1-vert .tag, .m-salebox1-vertdown .tag { width: 130px; height: 25px; line-height: 25px; text-align: center; background-color: #000; color: #fff; margin: 10px 0 20px; }
-.m-salebox1-horiz .price, .m-salebox1-vert .price, .m-salebox1-vertdown .price { margin-top: 10px; }
-.m-salebox1-horiz .u-btn, .m-salebox1-vert .u-btn, .m-salebox1-vertdown .u-btn { width: 155px; height: 40px; margin: 10px 20px 0 0; text-align: center; line-height: 40px; font-size: 16.88px; float: left; }
-.m-salebox1-horiz .u-btn:last-child, .m-salebox1-vert .u-btn:last-child, .m-salebox1-vertdown .u-btn:last-child { margin-right: 0; }
-.m-salebox1-horiz .pri, .m-salebox1-vert .pri, .m-salebox1-vertdown .pri { font-size: 30px; }
-.m-salebox1-horiz .z-sale, .m-salebox1-vert .z-sale, .m-salebox1-vertdown .z-sale { border: 1px dashed #ab2b2b; color: #ab2b2b; }
-.m-salebox1-horiz .z-buy, .m-salebox1-vert .z-buy, .m-salebox1-vertdown .z-buy { background-color: #ab2b2b; color: #fff; }
-.m-salebox1-horiz .text, .m-salebox1-vert .text, .m-salebox1-vertdown .text { max-height: 120px; overflow: hidden; }
+.m-salebox1-horiz { width: 1090px; height: 405px; margin-bottom: 10px; }
+.m-salebox1-horiz .pic, .m-salebox1-horiz .detail { float: left; }
+.m-salebox1-horiz .pic { width: 625px; height: 100%; }
+.m-salebox1-horiz .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
+.m-salebox1-horiz .detail { box-sizing: border-box; width: 465px; float: left; height: 100%; padding: 60px 0 0 60px; background-color: #fff; position: relative; }
+.m-salebox1-horiz .detail::after { content: url("../img/bg.png"); position: absolute; -webkit-transform: rotateZ(90deg); transform: rotateZ(90deg); border: 1px solid transparent; top: 50%; left: -152px; }
+.m-salebox1-horiz .tag { width: 130px; height: 25px; line-height: 25px; text-align: center; background-color: #000; color: #fff; margin: 10px 0 20px; }
+.m-salebox1-horiz .price { margin-top: 10px; }
+.m-salebox1-horiz .u-btn { width: 155px; height: 40px; margin: 10px 20px 0 0; text-align: center; line-height: 40px; font-size: 16.88px; float: left; }
+.m-salebox1-horiz .u-btn:last-child { margin-right: 0; }
+.m-salebox1-horiz .pri { font-size: 30px; }
+.m-salebox1-horiz .z-sale { border: 1px dashed #ab2b2b; color: #ab2b2b; }
+.m-salebox1-horiz .z-buy { background-color: #ab2b2b; color: #fff; }
+.m-salebox1-horiz .text { max-height: 120px; overflow: hidden; }
 
-.m-salebox1-vert, .m-salebox1-vertdown { width: 535px; height: auto; overflow: hidden; }
-.m-salebox1-vert .pic, .m-salebox1-vertdown .pic { width: 100%; height: 375px; }
-.m-salebox1-vert .detail, .m-salebox1-vertdown .detail { width: 100%; height: 375px; }
-.m-salebox1-vert .detail:after, .m-salebox1-vertdown .detail:after { top: -35px; left: 50%; margin-left: -143px; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
-.m-salebox1-vert .text, .m-salebox1-vertdown .text { max-height: 100px; }
+.m-salebox1-vert { width: 535px; height: auto; overflow: hidden; margin-bottom: 10px; }
+.m-salebox1-vert .pic, .m-salebox1-vert .detail { float: left; }
+.m-salebox1-vert .pic { width: 100%; height: 375px; }
+.m-salebox1-vert .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
+.m-salebox1-vert .detail { width: 100%; height: 375px; box-sizing: border-box; float: left; padding: 60px 0 0 60px; background-color: #fff; position: relative; }
+.m-salebox1-vert .detail::after { content: url("../img/bg.png"); position: absolute; -webkit-transform: rotateZ(90deg); transform: rotateZ(90deg); border: 1px solid transparent; top: -35px; left: 50%; margin-left: -143px; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
+.m-salebox1-vert .tag { width: 130px; height: 25px; line-height: 25px; text-align: center; background-color: #000; color: #fff; margin: 10px 0 20px; }
+.m-salebox1-vert .price { margin-top: 10px; }
+.m-salebox1-vert .u-btn { width: 155px; height: 40px; margin: 10px 20px 0 0; text-align: center; line-height: 40px; font-size: 16.88px; float: left; }
+.m-salebox1-vert .u-btn:last-child { margin-right: 0; }
+.m-salebox1-vert .pri { font-size: 30px; }
+.m-salebox1-vert .z-sale { border: 1px dashed #ab2b2b; color: #ab2b2b; }
+.m-salebox1-vert .z-buy { background-color: #ab2b2b; color: #fff; }
+.m-salebox1-vert .text { max-height: 120px; overflow: hidden; max-height: 100px; }
 
-.m-salebox1-vertdown .detail:after { margin-top: -17px; margin-left: -143px; top: 100%; left: 50%; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
+.m-salebox1-vertdown { width: 535px; height: auto; overflow: hidden; margin-bottom: 10px; }
+.m-salebox1-vertdown .pic, .m-salebox1-vertdown .detail { float: left; }
+.m-salebox1-vertdown .pic { width: 100%; height: 375px; }
+.m-salebox1-vertdown .title { font-size: 20px; color: rgba(0, 0, 0, 0.8); margin-bottom: 10px; }
+.m-salebox1-vertdown .detail { width: 100%; height: 375px; box-sizing: border-box; float: left; padding: 60px 0 0 60px; background-color: #fff; position: relative; }
+.m-salebox1-vertdown .detail::after { content: url("../img/bg.png"); position: absolute; border: 1px solid transparent; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); margin-top: -17px; margin-left: -143px; top: 100%; left: 50%; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
+.m-salebox1-vertdown .tag { width: 130px; height: 25px; line-height: 25px; text-align: center; background-color: #000; color: #fff; margin: 10px 0 20px; }
+.m-salebox1-vertdown .price { margin-top: 10px; }
+.m-salebox1-vertdown .u-btn { width: 155px; height: 40px; margin: 10px 20px 0 0; text-align: center; line-height: 40px; font-size: 16.88px; float: left; }
+.m-salebox1-vertdown .u-btn:last-child { margin-right: 0; }
+.m-salebox1-vertdown .pri { font-size: 30px; }
+.m-salebox1-vertdown .z-sale { border: 1px dashed #ab2b2b; color: #ab2b2b; }
+.m-salebox1-vertdown .z-buy { background-color: #ab2b2b; color: #fff; }
+.m-salebox1-vertdown .text { max-height: 120px; overflow: hidden; max-height: 100px; }
+
+/*# sourceMappingURL=index.css.map */
