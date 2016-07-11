@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+$font-col: rgba(0,0,0,0.5);
+$font-wei:rgba(0,0,0,0.7);
+$red: rgb(228,66,66);
+
+*{margin:0;padding:0;}
+body
+{
+	margin:100px;
+	background-color: rgb(242,242,242);
+}
+
+.m-salebox
+{
+	width: 300px; 
+	height: 500px;
+	text-align: center;
+	font:18px/1.6 "Microsoft Yahei","微软雅黑",verdana;
+	color: $font-wei;
+	background-color: #fff;
+	.oripri
+	{
+		text-decoration:line-through;
+		font-size: 13px;
+		color: $font-col;
+		padding-left: 5px;
+	}
+	.pri
+	{
+	  color: $red;
+	  font-size: 26px;
+	}
+
+	.picture
+	{
+		width:280px;
+		height: 325px;
+		padding:10px;
+		img 
+		{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.detail
+	{
+		padding:0 10px;
+	}
+	.title, .subtitle
+	{
+		white-space:nowrap;
+		overflow: hidden;
+	}
+	.subtitle
+	{
+		font-size: 12px;
+		color: $font-col;
+	}
+	.price 
+	{
+		color:$red;
+	}
+
+	.btnbox
+	{
+		width:220px;
+		height: 40px;
+		margin:auto;
+		font-size: 15px;
+	}
+	.u-btn 
+	{
+		float:left;
+		box-sizing:border-box;
+		height: 100%;
+		line-height: 38px;
+	}
+	.z-sale
+	{
+		width:130px;
+		border:1px dashed $red;
+		border-right-color:transparent;
+		color:$red;
+	}
+	.z-buy
+	{
+		width:90px;
+		border:1px solid $red;
+		background-color: $red;
+		color:#fff;
+	}
+}
