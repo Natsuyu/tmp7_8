@@ -1,0 +1,395 @@
+@charset "utf-8";
+
+$font-col: rgba(0,0,0,0.5);
+$font-wei:rgba(0,0,0,0.7);
+$red: rgb(171, 43, 43);
+$gray: rgba(0,0,0,0.3);
+
+*{margin:0;padding:0;}
+body
+{
+	padding:20px;
+	margin:100px;
+	background-color: rgb(242,242,242);
+	& > div 
+	{
+		margin-bottom: 10px;
+	}
+	font:18px/1 "Microsoft Yahei","微软雅黑",verdana;
+}
+
+.m-salebox
+{
+	width: 505px;
+	height: 325px;
+	background-color: #FFF;
+	color: $red;
+	.detail
+	{
+		padding-left: 10px;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.title 
+	{
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+	.subtitle
+	{
+		margin-bottom: 10px;
+		font-size: 15px;
+		color: $font-col;
+		position: relative;
+		&:before
+		{
+			content: "";
+			background-color: $font-wei;
+			height: 100%;
+			width: 3px;
+			position: absolute;
+			top:0; left: -10px;
+		}
+	}
+	.picture
+	{
+		width:100%;
+		height: 202px;
+		margin-bottom: 20px;
+	}
+	img
+	{
+		width: 100%; 
+		height:100%;
+	}
+	.price 
+	{
+		float: left;
+		width: 50%;
+	}
+	.pri 
+	{
+		font-size: 40px;
+	}
+	.oripri
+	{
+		text-decoration: line-through;
+		color: $font-col;
+	}
+	.u-btn
+	{
+		font-size: 17px;
+		float: left;
+		width: 50%;
+		height: 40px;
+		line-height: 38px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	.sale 
+	{
+		color: $red;
+		border:1px solid $red;
+	}
+	.buy
+	{
+		color: #fff;
+		background-color: $red;
+	}
+}
+.m-salebox-ll
+{
+	width: 505px;
+	height: 710px;
+	background-color: #FFF;
+	color: $red;
+	.detail
+	{
+		padding-left: 10px;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.title 
+	{
+		margin-bottom: 10px;
+		font-size: 30px;
+		
+	}
+	.subtitle
+	{
+		margin-bottom: 10px;
+		font-size: 15px;
+		color: $font-col;
+		position: relative;
+		&:before
+		{
+			content: "";
+			background-color: $font-wei;
+			height: 100%;
+			width: 3px;
+			position: absolute;
+			top:0; left: -10px;
+		}
+	}
+	.picture
+	{
+		width:100%;
+		height: 586px;
+		margin-bottom: 20px;
+	}
+	img
+	{
+		width: 100%; 
+		height:100%;
+	}
+	.price 
+	{
+		float: left;
+		width: 50%;
+	}
+	.pri 
+	{
+		font-size: 40px;
+	}
+	.u-btn
+	{
+		font-size: 17px;
+		float: left;
+		width: 50%;
+		height: 40px;
+		line-height: 38px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.sale 
+	{
+		color: $red;
+		border:1px solid $red;
+	}
+	.buy
+	{
+		color: #fff;
+		background-color: $red;
+	}
+}
+.m-salebox1-left
+{
+	width: 1010px;
+	height: 495px;
+	background-color: #FFF;
+	color: $red;
+	.pic-box, .inner-salebox
+	{
+		float: left;
+		width: 50%;
+		height: 100%;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	.picture 
+	{
+		position: absolute;
+		top:60px; right: 40px;
+		width: 430px; 
+		height: 285px;
+		transform: rotate(10deg);
+
+		&:after
+		{
+			content: "";
+			width: 100%; height: 100%;
+			position:absolute;
+			top:7px; left: 7px;
+			box-shadow: 3px 4px 3px $gray;
+			border-radius: 3px;
+			border-right:1px dashed $gray;
+			border-bottom:1px dashed $gray;
+		}
+	}
+	img 
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.inner-salebox
+	{
+		padding: 70px 0 0 20px;
+		
+		.detail
+		{
+			padding-left: 10px;
+			
+		}
+		.title 
+		{
+			margin-bottom: 10px;
+			font-size: 38px;
+			white-space: nowrap;
+			overflow: hidden;
+			margin-bottom: 20px;
+		}
+		.subtitle
+		{
+			line-height: 150%;
+			margin-bottom: 10px;
+			color: $font-col;
+			position: relative;
+			overflow: hidden;
+			max-height: 100px;
+			overflow: hidden;
+		}
+	
+		.price
+		{
+			margin:45px 0 15px;
+		}
+		.pri 
+		{
+			font-size: 40px;
+		}
+		.oripri
+		{
+			text-decoration: line-through;
+			color: $font-col;
+		}
+		.u-btn
+		{
+			font-size: 17px;
+			float: left;
+			width: 50%;
+			height: 50px;
+			line-height: 48px;
+			text-align: center;
+			box-sizing: border-box;
+			font-size: 20px;
+		}
+		.btnbox
+		{
+			width: 320px;
+		}
+		.sale 
+		{
+			color: $red;
+			border:1px solid $red;
+		}
+		.buy
+		{
+			color: #fff;
+			background-color: $red;
+		}
+	}
+}
+.m-salebox1-right
+{
+	width: 1010px;
+	height: 495px;
+	
+	background-color: #FFF;
+	color: $red;
+	.pic-box, .inner-salebox
+	{
+		float: right;
+		width: 50%;
+		height: 100%;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	.picture 
+	{
+		position: absolute;
+		top:80px; left: 40px;
+		width: 430px; 
+		height: 285px;
+		transform: rotate(-10deg);
+
+		&:after
+		{
+			content: "";
+			width: 100%; height: 100%;
+			position:absolute;
+			top:7px; left: 7px;
+			box-shadow: 3px 4px 3px $gray;
+			border-radius: 3px;
+			border-right:1px dashed $gray;
+			border-bottom:1px dashed $gray;
+		}
+	}
+	img 
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.inner-salebox
+	{
+		padding: 105px 35px 0 0;
+		text-align: right;
+		.detail
+		{
+			padding-left: 10px;
+			
+		}
+		.title 
+		{
+			margin-bottom: 10px;
+			font-size: 38px;
+			white-space: nowrap;
+			overflow: hidden;
+			margin-bottom: 20px;
+		}
+		.subtitle
+		{
+			margin-bottom: 10px;
+			color: $font-col;
+			position: relative;
+			overflow: hidden;
+			max-height: 100px;
+			overflow: hidden;
+			line-height: 150%;
+		}
+		
+		.price
+		{
+			margin:45px 0 15px;
+		}
+		.pri 
+		{
+			font-size: 40px;
+		}
+		.oripri
+		{
+			text-decoration: line-through;
+			color: $font-col;
+		}
+		.u-btn
+		{
+			font-size: 17px;
+			float: left;
+			width: 50%;
+			height: 50px;
+			line-height: 48px;
+			text-align: center;
+			box-sizing: border-box;
+			font-size: 20px;
+		}
+		.btnbox
+		{
+			width: 320px;
+			float: right;
+		}
+		.sale 
+		{
+			color: $red;
+			border:1px solid $red;
+		}
+		.buy
+		{
+			color: #fff;
+			background-color: $red;
+		}
+	}
+}
