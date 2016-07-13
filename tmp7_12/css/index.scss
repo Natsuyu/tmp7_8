@@ -15,7 +15,7 @@ body
 	{
 		margin-bottom: 10px;
 	}
-	font:18px/1 "Microsoft Yahei","微软雅黑",verdana;
+	font:18px/1 Helvetica,Arial,sans-serif;
 }
 
 .m-salebox
@@ -34,6 +34,7 @@ body
 	{
 		margin-bottom: 10px;
 		font-size: 30px;
+		font-family:fzqkbysj;
 	}
 	.subtitle
 	{
@@ -66,10 +67,12 @@ body
 	{
 		float: left;
 		width: 50%;
+		font-family:fzqkbysj;
 	}
 	.pri 
 	{
 		font-size: 40px;
+		font-family:FZLTHK;
 	}
 	.oripri
 	{
@@ -85,6 +88,7 @@ body
 		line-height: 38px;
 		text-align: center;
 		box-sizing: border-box;
+		font-family:fzqkbysj;
 	}
 
 	.sale 
@@ -114,7 +118,7 @@ body
 	{
 		margin-bottom: 10px;
 		font-size: 30px;
-		
+		font-family:fzqkbysj;
 	}
 	.subtitle
 	{
@@ -147,9 +151,11 @@ body
 	{
 		float: left;
 		width: 50%;
+		font-family:fzqkbysj;
 	}
 	.pri 
 	{
+		font-family:FZLTHK;
 		font-size: 40px;
 	}
 	.u-btn
@@ -161,6 +167,7 @@ body
 		line-height: 38px;
 		text-align: center;
 		box-sizing: border-box;
+		font-family:fzqkbysj;
 	}
 	.sale 
 	{
@@ -187,7 +194,14 @@ body
 		box-sizing: border-box;
 		position: relative;
 	}
-
+	.sub-pic
+	{
+		width:250px;
+		height: 250px;
+		position: absolute;
+		bottom:70px;
+		left:-70px;
+	}
 	.picture 
 	{
 		position: absolute;
@@ -230,6 +244,7 @@ body
 			white-space: nowrap;
 			overflow: hidden;
 			margin-bottom: 20px;
+			font-family:fzqkbysj;
 		}
 		.subtitle
 		{
@@ -239,16 +254,17 @@ body
 			position: relative;
 			overflow: hidden;
 			max-height: 100px;
-			overflow: hidden;
 		}
 	
 		.price
 		{
 			margin:45px 0 15px;
+			font-family:fzqkbysj;
 		}
 		.pri 
 		{
 			font-size: 40px;
+			font-family:FZLTHK;
 		}
 		.oripri
 		{
@@ -265,6 +281,7 @@ body
 			text-align: center;
 			box-sizing: border-box;
 			font-size: 20px;
+			font-family:fzqkbysj;
 		}
 		.btnbox
 		{
@@ -297,7 +314,14 @@ body
 		box-sizing: border-box;
 		position: relative;
 	}
-
+	.sub-pic
+	{
+		width:250px;
+		height: 250px;
+		position: absolute;
+		bottom:70px;
+		right:-70px;
+	}
 	.picture 
 	{
 		position: absolute;
@@ -335,11 +359,11 @@ body
 		}
 		.title 
 		{
-			margin-bottom: 10px;
 			font-size: 38px;
 			white-space: nowrap;
 			overflow: hidden;
 			margin-bottom: 20px;
+			font-family:fzqkbysj;
 		}
 		.subtitle
 		{
@@ -348,17 +372,18 @@ body
 			position: relative;
 			overflow: hidden;
 			max-height: 100px;
-			overflow: hidden;
 			line-height: 150%;
 		}
 		
 		.price
 		{
 			margin:45px 0 15px;
+			font-family:fzqkbysj;
 		}
 		.pri 
 		{
 			font-size: 40px;
+			font-family:FZLTHK;
 		}
 		.oripri
 		{
@@ -375,6 +400,7 @@ body
 			text-align: center;
 			box-sizing: border-box;
 			font-size: 20px;
+			font-family:fzqkbysj;
 		}
 		.btnbox
 		{
@@ -390,6 +416,95 @@ body
 		{
 			color: #fff;
 			background-color: $red;
+		}
+	}
+}
+.m-salebox2
+{
+	width: 1070px;
+	height: 345px;
+	
+	line-height: 1.5;
+	background-color: #FFF;
+	color: $font-wei;
+	.picture, .inner-salebox
+	{
+		float: left;
+		width: 50%;
+		height: 100%;
+		box-sizing: border-box;
+		position: relative;
+	}
+	.picture
+	{
+		padding-right:25px;
+	}
+	img 
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.inner-salebox
+	{
+		padding: 10px 0 0 33px;
+		.content 
+		{
+			font-size: 22px;
+			margin-bottom: 10px;
+		}
+		.detail
+		{
+			white-space: nowrap;
+			overflow: hidden;
+			padding-top:12px;
+			margin-right: 45px;
+			border-top:1px solid $gray;
+		}
+		.title 
+		{
+			font-size: 30px;
+			white-space: nowrap;
+			overflow: hidden;
+			margin-bottom: 20px;
+			padding-right:10px;
+			font-family:fzqkbysj;
+		}
+		.subtitle
+		{
+			font-size: 20px;
+			color: $font-col;
+			overflow: hidden;
+			line-height: 150%;
+		}
+		
+		.price
+		{
+			margin:30px 0 10px;
+			color: $red;
+			font-family:fzqkbysj;
+		}
+		.pri 
+		{
+			font-size: 40px;
+			padding-right:20px;
+			font-family:FZLTHK;
+		}
+		.oripri
+		{
+			text-decoration: line-through;
+			color: $font-col;
+			font-size:14px;
+		}
+		.u-btn
+		{
+			width: 205px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			color: #fff;
+			background-color: $red;
+			font-family:fzqkbysj;
 		}
 	}
 }
