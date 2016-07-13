@@ -199,8 +199,8 @@ body
 		width:250px;
 		height: 250px;
 		position: absolute;
-		bottom:70px;
-		left:-70px;
+		bottom:80px;
+		left:-100px;
 	}
 	.picture 
 	{
@@ -231,7 +231,7 @@ body
 	.inner-salebox
 	{
 		padding: 70px 0 0 20px;
-		
+	}
 		.detail
 		{
 			padding-left: 10px;
@@ -297,7 +297,6 @@ body
 			color: #fff;
 			background-color: $red;
 		}
-	}
 }
 .m-salebox1-right
 {
@@ -319,8 +318,8 @@ body
 		width:250px;
 		height: 250px;
 		position: absolute;
-		bottom:70px;
-		right:-70px;
+		bottom:60px;
+		right:-100px;
 	}
 	.picture 
 	{
@@ -352,6 +351,7 @@ body
 	{
 		padding: 105px 35px 0 0;
 		text-align: right;
+	}
 		.detail
 		{
 			padding-left: 10px;
@@ -417,7 +417,7 @@ body
 			color: #fff;
 			background-color: $red;
 		}
-	}
+
 }
 .m-salebox2
 {
@@ -448,6 +448,7 @@ body
 	.inner-salebox
 	{
 		padding: 10px 0 0 33px;
+	}
 		.content 
 		{
 			font-size: 22px;
@@ -506,5 +507,4 @@ body
 			background-color: $red;
 			font-family:fzqkbysj;
 		}
-	}
 }

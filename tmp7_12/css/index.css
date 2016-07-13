@@ -32,51 +32,52 @@ body > div { margin-bottom: 10px; }
 
 .m-salebox1-left { width: 1010px; height: 495px; background-color: #FFF; color: #ab2b2b; }
 .m-salebox1-left .pic-box, .m-salebox1-left .inner-salebox { float: left; width: 50%; height: 100%; box-sizing: border-box; position: relative; }
-.m-salebox1-left .sub-pic { width: 250px; height: 250px; position: absolute; bottom: 70px; left: -70px; }
+.m-salebox1-left .sub-pic { width: 250px; height: 250px; position: absolute; bottom: 80px; left: -100px; }
 .m-salebox1-left .picture { position: absolute; top: 60px; right: 40px; width: 430px; height: 285px; -webkit-transform: rotate(10deg); -ms-transform: rotate(10deg); transform: rotate(10deg); }
 .m-salebox1-left .picture:after { content: ""; width: 100%; height: 100%; position: absolute; top: 7px; left: 7px; box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3); border-radius: 3px; border-right: 1px dashed rgba(0, 0, 0, 0.3); border-bottom: 1px dashed rgba(0, 0, 0, 0.3); }
 .m-salebox1-left img { width: 100%; height: 100%; }
 .m-salebox1-left .inner-salebox { padding: 70px 0 0 20px; }
-.m-salebox1-left .inner-salebox .detail { padding-left: 10px; }
-.m-salebox1-left .inner-salebox .title { margin-bottom: 10px; font-size: 38px; white-space: nowrap; overflow: hidden; margin-bottom: 20px; font-family: fzqkbysj; }
-.m-salebox1-left .inner-salebox .subtitle { line-height: 150%; margin-bottom: 10px; color: rgba(0, 0, 0, 0.5); position: relative; overflow: hidden; max-height: 100px; }
-.m-salebox1-left .inner-salebox .price { margin: 45px 0 15px; font-family: fzqkbysj; }
-.m-salebox1-left .inner-salebox .pri { font-size: 40px; font-family: FZLTHK; }
-.m-salebox1-left .inner-salebox .oripri { text-decoration: line-through; color: rgba(0, 0, 0, 0.5); }
-.m-salebox1-left .inner-salebox .u-btn { font-size: 17px; float: left; width: 50%; height: 50px; line-height: 48px; text-align: center; box-sizing: border-box; font-size: 20px; font-family: fzqkbysj; }
-.m-salebox1-left .inner-salebox .btnbox { width: 320px; }
-.m-salebox1-left .inner-salebox .sale { color: #ab2b2b; border: 1px solid #ab2b2b; }
-.m-salebox1-left .inner-salebox .buy { color: #fff; background-color: #ab2b2b; }
+.m-salebox1-left .detail { padding-left: 10px; }
+.m-salebox1-left .title { margin-bottom: 10px; font-size: 38px; white-space: nowrap; overflow: hidden; margin-bottom: 20px; font-family: fzqkbysj; }
+.m-salebox1-left .subtitle { line-height: 150%; margin-bottom: 10px; color: rgba(0, 0, 0, 0.5); position: relative; overflow: hidden; max-height: 100px; }
+.m-salebox1-left .price { margin: 45px 0 15px; font-family: fzqkbysj; }
+.m-salebox1-left .pri { font-size: 40px; font-family: FZLTHK; }
+.m-salebox1-left .oripri { text-decoration: line-through; color: rgba(0, 0, 0, 0.5); }
+.m-salebox1-left .u-btn { font-size: 17px; float: left; width: 50%; height: 50px; line-height: 48px; text-align: center; box-sizing: border-box; font-size: 20px; font-family: fzqkbysj; }
+.m-salebox1-left .btnbox { width: 320px; }
+.m-salebox1-left .sale { color: #ab2b2b; border: 1px solid #ab2b2b; }
+.m-salebox1-left .buy { color: #fff; background-color: #ab2b2b; }
 
 .m-salebox1-right { width: 1010px; height: 495px; background-color: #FFF; color: #ab2b2b; }
 .m-salebox1-right .pic-box, .m-salebox1-right .inner-salebox { float: right; width: 50%; height: 100%; box-sizing: border-box; position: relative; }
-.m-salebox1-right .sub-pic { width: 250px; height: 250px; position: absolute; bottom: 70px; right: -70px; }
+.m-salebox1-right .sub-pic { width: 250px; height: 250px; position: absolute; bottom: 60px; right: -100px; }
 .m-salebox1-right .picture { position: absolute; top: 80px; left: 40px; width: 430px; height: 285px; -webkit-transform: rotate(-10deg); -ms-transform: rotate(-10deg); transform: rotate(-10deg); }
 .m-salebox1-right .picture:after { content: ""; width: 100%; height: 100%; position: absolute; top: 7px; left: 7px; box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3); border-radius: 3px; border-right: 1px dashed rgba(0, 0, 0, 0.3); border-bottom: 1px dashed rgba(0, 0, 0, 0.3); }
 .m-salebox1-right img { width: 100%; height: 100%; }
 .m-salebox1-right .inner-salebox { padding: 105px 35px 0 0; text-align: right; }
-.m-salebox1-right .inner-salebox .detail { padding-left: 10px; }
-.m-salebox1-right .inner-salebox .title { font-size: 38px; white-space: nowrap; overflow: hidden; margin-bottom: 20px; font-family: fzqkbysj; }
-.m-salebox1-right .inner-salebox .subtitle { margin-bottom: 10px; color: rgba(0, 0, 0, 0.5); position: relative; overflow: hidden; max-height: 100px; line-height: 150%; }
-.m-salebox1-right .inner-salebox .price { margin: 45px 0 15px; font-family: fzqkbysj; }
-.m-salebox1-right .inner-salebox .pri { font-size: 40px; font-family: FZLTHK; }
-.m-salebox1-right .inner-salebox .oripri { text-decoration: line-through; color: rgba(0, 0, 0, 0.5); }
-.m-salebox1-right .inner-salebox .u-btn { font-size: 17px; float: left; width: 50%; height: 50px; line-height: 48px; text-align: center; box-sizing: border-box; font-size: 20px; font-family: fzqkbysj; }
-.m-salebox1-right .inner-salebox .btnbox { width: 320px; float: right; }
-.m-salebox1-right .inner-salebox .sale { color: #ab2b2b; border: 1px solid #ab2b2b; }
-.m-salebox1-right .inner-salebox .buy { color: #fff; background-color: #ab2b2b; }
+.m-salebox1-right .detail { padding-left: 10px; }
+.m-salebox1-right .title { font-size: 38px; white-space: nowrap; overflow: hidden; margin-bottom: 20px; font-family: fzqkbysj; }
+.m-salebox1-right .subtitle { margin-bottom: 10px; color: rgba(0, 0, 0, 0.5); position: relative; overflow: hidden; max-height: 100px; line-height: 150%; }
+.m-salebox1-right .price { margin: 45px 0 15px; font-family: fzqkbysj; }
+.m-salebox1-right .pri { font-size: 40px; font-family: FZLTHK; }
+.m-salebox1-right .oripri { text-decoration: line-through; color: rgba(0, 0, 0, 0.5); }
+.m-salebox1-right .u-btn { font-size: 17px; float: left; width: 50%; height: 50px; line-height: 48px; text-align: center; box-sizing: border-box; font-size: 20px; font-family: fzqkbysj; }
+.m-salebox1-right .btnbox { width: 320px; float: right; }
+.m-salebox1-right .sale { color: #ab2b2b; border: 1px solid #ab2b2b; }
+.m-salebox1-right .buy { color: #fff; background-color: #ab2b2b; }
 
 .m-salebox2 { width: 1070px; height: 345px; line-height: 1.5; background-color: #FFF; color: rgba(0, 0, 0, 0.7); }
 .m-salebox2 .picture, .m-salebox2 .inner-salebox { float: left; width: 50%; height: 100%; box-sizing: border-box; position: relative; }
 .m-salebox2 .picture { padding-right: 25px; }
 .m-salebox2 img { width: 100%; height: 100%; }
 .m-salebox2 .inner-salebox { padding: 10px 0 0 33px; }
-.m-salebox2 .inner-salebox .content { font-size: 22px; margin-bottom: 10px; }
-.m-salebox2 .inner-salebox .detail { white-space: nowrap; overflow: hidden; padding-top: 12px; margin-right: 45px; border-top: 1px solid rgba(0, 0, 0, 0.3); }
-.m-salebox2 .inner-salebox .title { font-size: 30px; white-space: nowrap; overflow: hidden; margin-bottom: 20px; padding-right: 10px; font-family: fzqkbysj; }
-.m-salebox2 .inner-salebox .subtitle { font-size: 20px; color: rgba(0, 0, 0, 0.5); overflow: hidden; line-height: 150%; }
-.m-salebox2 .inner-salebox .price { margin: 30px 0 10px; color: #ab2b2b; font-family: fzqkbysj; }
-.m-salebox2 .inner-salebox .pri { font-size: 40px; padding-right: 20px; font-family: FZLTHK; }
-.m-salebox2 .inner-salebox .oripri { text-decoration: line-through; color: rgba(0, 0, 0, 0.5); font-size: 14px; }
-.m-salebox2 .inner-salebox .u-btn { width: 205px; height: 50px; line-height: 50px; text-align: center; color: #fff; background-color: #ab2b2b; font-family: fzqkbysj; }
+.m-salebox2 .content { font-size: 22px; margin-bottom: 10px; }
+.m-salebox2 .detail { white-space: nowrap; overflow: hidden; padding-top: 12px; margin-right: 45px; border-top: 1px solid rgba(0, 0, 0, 0.3); }
+.m-salebox2 .title { font-size: 30px; white-space: nowrap; overflow: hidden; margin-bottom: 20px; padding-right: 10px; font-family: fzqkbysj; }
+.m-salebox2 .subtitle { font-size: 20px; color: rgba(0, 0, 0, 0.5); overflow: hidden; line-height: 150%; }
+.m-salebox2 .price { margin: 30px 0 10px; color: #ab2b2b; font-family: fzqkbysj; }
+.m-salebox2 .pri { font-size: 40px; padding-right: 20px; font-family: FZLTHK; }
+.m-salebox2 .oripri { text-decoration: line-through; color: rgba(0, 0, 0, 0.5); font-size: 14px; }
+.m-salebox2 .u-btn { width: 205px; height: 50px; line-height: 50px; text-align: center; color: #fff; background-color: #ab2b2b; font-family: fzqkbysj; }
+
 /*# sourceMappingURL=index.css.map */
